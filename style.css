@@ -1,0 +1,139 @@
+body{
+    background-color: #F7F6F4;
+    margin: 0;
+}
+.ann{
+    background-color: #545454;
+}
+.ann p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.ann a {
+    color: aliceblue;
+}
+.topnav {
+    border-bottom: 1px solid black;
+  }
+  
+.topnav img {
+  float: left;
+  color: black;
+  text-align: left;
+  max-width: 220px;
+  padding-right: 180px;
+}
+
+.topnav .search {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  /* border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px  solid black;
+  border-right: 0px  solid black; */
+  border: none;
+  font-size: 17px;
+  width: 480px;
+  height: 32px;
+}
+
+.topnav .search button {
+  float: right;
+  margin-top: 1px;
+  height: 44px;
+  padding: 11px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  padding-bottom: 25px;
+  background: white;
+  font-size: 17px;
+  border: none;
+  /* border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px  solid black;
+  border-left: 0px  solid black; */
+  cursor: pointer;
+}
+
+.topnav .search button:hover {
+  background: #ccc;
+}
+.whish {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 5px;
+  margin-left: 100px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.whish img {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px ;
+  padding-top: 0px;
+  text-decoration: none;
+  font-size: 17px;
+  max-width: 33px;
+}
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
+.navbar{
+  margin-left: 88px;
+  margin-top: 20px;
+}
+.navbar{
+  border-right: 1px solid black;
+}
+.sale a {
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 133px;
+}
+.sale a:hover {
+  border-bottom: 2px solid black;
+  color: red;
+}
+.img{
+  overflow: hidden;
+  background-image: url(./img/banner.jpg);
+  text-align: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 240px;
+  background-repeat: no-repeat;
+  padding-top: 233px;
+}
+.img h4{
+  size: 660px;
+  color: aliceblue;
+}
+.img h1{
+  color: aliceblue;
+  size: 500px;
+}
+.btn{
+  background: white;
+  padding: 10px 30px;
+}
